@@ -40,3 +40,6 @@ body {
 .main-navigation a:hover {
     color: #007bff; /* Blue text color on hover */
 }
+body {
+    background-color: #f0f0f0; /* Light gray background for the entire page */
+}
