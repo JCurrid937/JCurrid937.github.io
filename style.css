@@ -1,0 +1,42 @@
+/* Basic styling for the body */
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* Banner styling */
+.banner {
+    background-color: #f0f0f0; /* Light gray background for the banner */
+    padding: 20px;
+    display: flex; /* Arranges banner content side-by-side */
+    justify-content: space-between; /* Distributes items evenly with space between them */
+    align-items: center; /* Vertically aligns items in the center */
+}
+
+.banner-image {
+    max-width: 150px; /* Adjust as needed */
+    height: auto;
+}
+
+/* Navigation styling */
+.main-navigation ul {
+    list-style: none; /* Removes bullet points from the list */
+    margin: 0;
+    padding: 0;
+}
+
+.main-navigation li {
+    display: inline-block; /* Makes navigation links appear horizontally */
+    margin-left: 20px; /* Adds spacing between navigation items */
+}
+
+.main-navigation a {
+    text-decoration: none; /* Removes the underline from links */
+    color: #333; /* Dark gray text color */
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+.main-navigation a:hover {
+    color: #007bff; /* Blue text color on hover */
+}
