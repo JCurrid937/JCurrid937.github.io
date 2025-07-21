@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Link to a CSS library like Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4C+0/s4fV62lFwS60l4F+B+w2b5Yh/oJ9A/d+k7t3P+7w7yV6F7+C7vG1X5d7/e+w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <h1>Contact Me</h1>
+    </header>
+
+    <main>
+        <section class="contact-info">
+            <h2>Get in Touch</h2>
+            <p>I'd love to hear from you! Here are several ways to reach us.</p>
+
+            <ul>
+                <li><i class="fas fa-envelope"></i> Email: <a href="mailto:jade.e.currid@tcu.edu">jade.e.currid@tcu.edu</a></li>
+                <li><i class="fas fa-phone"></i> Phone: <a href="tel:+6823467691">+1 (682) 346-7691</a></li>
+            <li><i class="fab fa-linkedin"></i> LinkedIn: <a href="https://www.linkedin.com/in/jade-currid-bb4a7969/" target="_blank" rel="noopener noreferrer">Your LinkedIn Profile</a></li>
+
+            </ul>
+        </section>
+
+        <!-- Optional: Add a contact form -->
+        <section class="contact-form">
+            <h2>Send us a message</h2>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <email type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Your Company. All rights reserved.</p>
+    </footer>
+</body>
+</html>
