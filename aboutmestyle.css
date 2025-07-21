@@ -36,14 +36,12 @@ header {
     align-items: center; /* Vertically align image and text */
 }
 
-.profile-image {
-    width: 50px; /* Set desired width for the square */
-    height: 50px; /* Set desired height for the square */
-    object-fit: cover; /* Ensures the image covers the entire square without distortion */
-    border-radius: 5px; /* Adds a slight rounding to the corners */
-    margin-right: 10px; /* Creates space between the image and text */
+.about-image {
+  max-width: 100%; /* Ensures the image scales down if the container is smaller */
+  height: auto;   /* Maintains aspect ratio */
+  display: block; /* Centers a block-level element horizontally with margin: auto */
+  margin: 0 auto; /* Centers the image horizontally */
 }
-
 .profile-name {
     font-weight: bold;
     font-size: 1.2em;
@@ -52,12 +50,7 @@ header {
 
 }
 
-.profile-image img {
-    max-width: 100%;
-    height: auto; /* Ensure image scales responsively */
-    border-radius: 50%; /* Create a circular image */
-    border: 5px solid #ddd;
-}
+
 
 /* About content styling */
 .about-content {
