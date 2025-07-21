@@ -6,13 +6,13 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #Light Gray;
     color: #333;
 }
 
 /* Header styling */
 header {
-    background-color: light gray;
+    background-color: #Light Gray;
     color: #fff;
     padding: 1em 0;
     text-align: center;
