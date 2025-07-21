@@ -31,12 +31,25 @@ header {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Profile image styling */
+.profile-section {
+    display: flex; /* Use flexbox for easy alignment */
+    align-items: center; /* Vertically align image and text */
+}
+
 .profile-image {
-    flex: 1; /* Allow image to take up available space */
-    max-width: 300px; /* Limit image width */
-    margin-right: 40px; /* Space between image and text */
-    text-align: center;
+    width: 50px; /* Set desired width for the square */
+    height: 50px; /* Set desired height for the square */
+    object-fit: cover; /* Ensures the image covers the entire square without distortion */
+    border-radius: 5px; /* Adds a slight rounding to the corners */
+    margin-right: 10px; /* Creates space between the image and text */
+}
+
+.profile-name {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+
 }
 
 .profile-image img {
