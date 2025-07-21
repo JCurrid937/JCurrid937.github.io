@@ -36,11 +36,9 @@ header {
     align-items: center; /* Vertically align image and text */
 }
 
-.about-image {
-  max-width: 100%; /* Ensures the image scales down if the container is smaller */
-  height: auto;   /* Maintains aspect ratio */
-  display: block; /* Centers a block-level element horizontally with margin: auto */
-  margin: 0 auto; /* Centers the image horizontally */
+.small-image {
+    width: 50px; /* Adjust the desired width in pixels */
+    height: 50px; /* Adjust the desired height in pixels */
 }
 .profile-name {
     font-weight: bold;
