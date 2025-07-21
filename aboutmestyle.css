@@ -27,7 +27,7 @@ header {
     padding: 40px 20px;
     max-width: 960px;
     margin: 20px auto;
-    background-color: #fff;
+    background-color: Light Gray;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -39,6 +39,7 @@ header {
 .small-image {
     width: 50px; /* Adjust the desired width in pixels */
     height: 50px; /* Adjust the desired height in pixels */
+    justify-content: center; /* Horizontally center the image */
 }
 .profile-name {
     font-weight: bold;
