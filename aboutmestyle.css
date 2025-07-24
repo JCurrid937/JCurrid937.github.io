@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif; /* Choose an accessible and readable font */
+    font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 30px;
     padding: 30px;
@@ -12,8 +12,8 @@ body {
     color: #fff;
     padding: 1em 0;
     text-align: center;
-    margin: 30px;
-    padding: 30px;
+    margin: 80px;
+    padding: 80px;
     }
 
 
@@ -30,11 +30,16 @@ body {
 }
     
     
+.parent-container {
+  position: relative;
 }
-i.image-container {
-  display: flex;
-  justify-content: center;
+
+img {
+  position: absolute; 
+  top: 100%; 
+  left: 100%; 
 }
+
 
 
 .profile-section {
