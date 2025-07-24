@@ -4,11 +4,11 @@ body {
     margin: 30px;
     padding: 30px;
     ;
-    background-color: #Light Gray;
+    background-color: #lightgray;
     color: #333;
 
     header {
-    background-color: #Light Gray;
+    background-color: #lightgray;
     color: #fff;
     padding: 1em 0;
     text-align: center;
@@ -22,7 +22,7 @@ body {
     padding: 40px 20px;
     max-width: 960px;
     margin: 20px auto;
-    background-color: Light Gray;
+    background-color: lightgray;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 
     .container {
